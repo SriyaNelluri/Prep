@@ -1,0 +1,4 @@
+finding repeating numbers:
+1)find n(n+1)/2 - sum of input array 
+2)find n!/product of array
+3)solve for x-y given x+y and xy
