@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-//if arr[i]<arr[j] increase i, if arr[j]<arr[i] increase i else (arr[i]=arr[j]) then print
+//if arr[i]<arr[j] increase i, if arr[j]<arr[i] increase j else (arr[i]=arr[j]) then print
 using namespace std;
 int printIntersection(int arr1[], int arr2[], int m, int n)
 {
