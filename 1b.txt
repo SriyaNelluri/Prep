@@ -1,5 +1,0 @@
-For arrays with duplicate elements:
-find the maximum of two arrays
-create a new array with the size of maximum +1
-start traversing through first array, check if current element not equal to previous element,if notincrease newarr[current element]+=1
-for second array , check if newarr[current element]==0, if yes print and newarr[current element]+=1
