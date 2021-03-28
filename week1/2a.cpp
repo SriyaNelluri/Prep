@@ -27,8 +27,6 @@ int getOddOccurrence(int arr[],int size)
 	}
 	return -1;
 }
-
-// Driver code
 int main()
 {
 	int arr[] = { 2, 3, 5, 4, 5, 2, 4,
@@ -41,5 +39,5 @@ int main()
 	return 0;
 }
 
-// This code is contributed by codeMan_d.
+
 
