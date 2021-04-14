@@ -6,21 +6,21 @@ public:
 	Node* next;
 };
 
-void deleteList(Node** head_ref){
-	Node* current = *head_ref;
+void deleteList(Node** head){
+	Node* current = *head;
 	Node* next = NULL;
 	while (current != NULL){
 		next = current->next;
 		free(current);
 		current = next;
 	}
-	*head_ref = NULL;
+	*head = NULL;
 }
-void push(Node** head_ref, int new_data){
+void push(Node** head, int data){
 	Node* new_node = new Node();
-	new_node->data = new_data;
-	new_node->next = (*head_ref);
-	(*head_ref) = new_node;
+	new_node->data = data;
+	new_node->next = (*head);
+	(*head) = new_node;
 }
 
 int main(){
